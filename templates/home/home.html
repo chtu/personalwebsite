@@ -1,10 +1,29 @@
 {% extends 'index.html' %}
+{% load static %}
 
 {% block content %}
 
-<h1>Programmer</h1>
-<p>Hello, my name is Charlie, and I'm a programmer!</p>
-<p>I have experience with web development and software engineering. I am also studying to get my Masters in Computer Science at San Francisco State University in the lovely Bay Area.</p>
-<p>I am actively looking for new internships in web or software.</p>
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+		<h1>Programmer</h1>
+		<p>Hello, my name is Charlie, and I'm a programmer based in the San Francisco Bay Area.</p>
+		<p>Most of my programming experience is in web development, but I also have experience with software development. I am working towards a Masters of Computer Science degree at San Francisco State University.</p>
+		<p>Feel free to check out my <a href="{% url 'home:projects' %}">projects</a>. I am currently looking for internships or other opportunities in web or software, so if you find me interesting, please contact me!</p>
+
+		<h3>contact e-mail:</h3>
+		me@charlietuttle.net
+
+		<h3>quick links:</h3>
+		<a href="https://www.linkedin.com/in/charlie-tuttle-54864434/" target="_blank">
+			<img id="linkedin-link" src="{% static 'img/linkedin.png' %}" alt="Linked In" />
+		</a>
+		<a href="https://github.com/chtu" target="_blank">
+			<img id="github-link" src="{% static 'img/github.png' %}" alt="github" />
+		</a>
+	</div>
+	<div class="col-sm-2"></div>
+</div>
+
 
 {% endblock %}

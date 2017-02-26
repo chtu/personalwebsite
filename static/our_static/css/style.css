@@ -1,0 +1,52 @@
+html body {
+	background-color: #f9f2e8;
+}
+
+
+.basket-cats {
+	width: 45%;
+	max-width: 180px;
+}
+
+.menu {
+	color: #ffeace;
+}
+
+.navbar {
+	background-color: #562c27;
+	color: #ffeace;
+}
+
+.navbar:hover {
+	color: #afa392;
+}
+
+.navbar-brand {
+	color: #ffeace;
+}
+
+.navbar-brand:hover {
+	color: #afa392;
+}
+
+.navbutton {
+	color: #ffeace;
+}
+
+.navbutton:hover {
+	color: #afa392;
+}
+
+
+.project {
+	background-color: white;
+	border: 2px solid #6d3713;
+}
+
+#github-link {
+	width: 60px;
+}
+
+#linkedin-link {
+	width: 63px;
+}

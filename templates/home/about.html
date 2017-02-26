@@ -1,0 +1,37 @@
+{% extends 'index.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+		<h1>About Me</h1>
+		<p>
+			I was born and raised in the SF Bay Area, and it's probably my favorite place in the world. I got my bachelors in Cinema at SFSU with the original intention of going into screenwriting. After a change of heart, I worked administrative roles until I decided to take some time to develop new tangible skills.
+		</p>
+		<p>
+			I originally became interested in programming around mid-2013, when my friends and I began making an original mobile game called "Basket Cats".<br/>
+			<img class="basket-cats" src="{% static 'img/bc1.png' %}" alt="Basket Cats picture" />
+			<img class="basket-cats" src="{% static 'img/bc2.png' %}" alt="Basket Cats gameplay" /><br/>
+			The idea was simple: Ball-shaped cats dropped from above and the player had to catch them in a basket. There were vertical doors that would move from side-to-side that would change the cat's course rapidly, which can make the cats difficult to catch. I should mention I didn't actually do any of the programming for this app, but I did provide all of the digital art, the original idea for the game, and many design concepts. I even made a <a href="https://youtu.be/pvmjqhTdLk4" target="_blank">video advertisement</a>!
+		</p>
+		<p>
+			After the game was completed, I was interested in the coding side of game development, so I picked up C# through a handful of Unity3D tutorials and eventually made a prototype of my own unreleased game called "Balloon Cats". This led me to explore other areas of programming, so I learned web development languages (HTML, CSS, javascript, and Python) and made a few simple joke sites for my friends. I continued to play around with coding as a hobby until late 2015, when I decided to return to school for a formal education in computer science.<br/>
+		</p>
+
+		<p>
+			I started by attending Foothill College in Los Altos, CA and working towards an A.S. Computer Science degree. It was during my time there that I got accepted into SFSU's M.S. Computer Science program, so I returned to my alma mater immediately after earning my A.S. degree. And so far, I've been thoroughly enjoying it!
+		</p>
+
+		<p>
+			And that brings me to now. Because most of my experience is in web development, I'm working on websites to occupy some space in my portfolio, but my interests don't stop there. I'd like to remake "Balloon Cats" in Unity3D when I feel like I have enough web development in my portfolio, and I'd also like to create projects that can showcase my Java and C++ knowledge.
+		</p>
+	</div>
+	<div class="col-sm-2"></div>
+</div>
+
+
+{% endblock %}
