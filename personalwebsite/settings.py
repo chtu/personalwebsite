@@ -25,7 +25,7 @@ SECRET_KEY = 'cvbrzig)h=ale3hi7l56r8=4ltdyo$dp^y4-3$ns$!aml8wb-e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.charlietuttle.net',]
 
 
 # Application definition
